@@ -33,12 +33,13 @@ let torontoHoods = "https://raw.githubusercontent.com/chanhodchang/Mapping_Earth
 
 // Create a style for the lines.
 let myStyle = {
-	color: "#ffffa1",
-	weight: 2
+    color: "blue",
+    fillColor: 'yellow',
+	weight: .5
 }
 
 // Grabbing our GeoJSON data.
-d3.json(torontoData).then(function(data) {
+d3.json(torontoHoods).then(function(data) {
     console.log(data);
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJson(data, {
