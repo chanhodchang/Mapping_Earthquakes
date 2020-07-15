@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <title>Mapping Earthquakes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="Earthquake_Challenge/index.html">Project</a>
+        <a href="https://github.com/chanhodchang/Mapping_Earthquakes" target="_blank">GitHub</a>
+        <a href="https://chanhodchang.github.io/" target="_blank">About</a>
+    </div>
+    <header>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="name text-center">Mapping_Earthquakes</h1>
+                <p>Using JavaScript and D3 to populate a geographical map from data in GeoJSON</p>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <h1 class="title">Project Overview</h1>
+        <p class="subtitle">Using JavaScript to manipulate data from 
+            a JSON file using Leaflet and Mapbox to create maps. 
+            Used D3 and GeoJSON to mark labels and create data points onto the maps. 
+            Created multiple branches to organize the different maps by the differentn 
+            mapping styles. The Earthquake_past7days branch held the data and map 
+            that displayed earthquake data around the world.</p>
+
+        <p class='subtitle2'>The challenge was to add tectonic plate data in the earthquakes map. 
+            GeoJSON Linestrings and polygons were used to display the different 
+            tectonic fault lines on the map.</p>
+    </section>
+    <section class="container">
+        <h1 class="title">Resources</h1>
+        <p class="subtitle">•	Data Sources: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson, https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+            <br>•	Software: JavaScript 1.8.5, Leaflet 1.6.0, Mapbox API, HTML5, CSS3
+        </p>
+    </section>
+    <section class="container">
+        <h1 class="title">Summary</h1>
+        <p class="subtitle">JavaScript and GeoJSON were used to create maps 
+            and map datapoints about earthquakes around the world. 
+            D3 was used to grab the data from the JSON files and displayed 
+            on an HTML file designed with CSS.
+            <br>1. First set variables for the different layers used in the maps using the Mapbox API and also set a variable that displayed the different layers.
+            <br>2. Set the variable to adjus the strating zoom and positon of the map.
+            <br>3. Set the data source websites as a variable and grabbed the data using GeoJSON and D3.
+            <br>4. Created different styles for the different circlemarkers that marked the different earhtquake apperances.
+            <br>5. Edited the formatting to display a color and size scale based on the magnitude of the earthquakes.
+        </p>
+        <p>
+            The challenge section was to create several line that displayed the different tectonic sheets on the map.
+        </p>
+        <p>
+            1. Set the webpage holding the JSON file for the tectonic plates as a variable.
+            <br>2. Used D3 and GeoJSON to grab the data and create borders on the map using linestrings.
+            <br>3. Formated the color to an orange so it can be seem easier.
+        </p>
+    </section>
+    <section class="container">
+        <h1 class="title">Analysis</h1>
+        <p>
+            Look at the data map created, there seems to be more earthquake 
+            activity near the fault lines. The stronger earthquakes also all 
+            directly on the fault line. The JSON seems to have more recorded 
+            data in NOrht America and it shows that most of the earthquakes 
+            happen on the western US border.
+        </p>
+    </section>
+</body>
+</html>
