@@ -1,5 +1,6 @@
 # Mapping_Earthquakes
 Using JavaScript and D3 to populate a geographical map from data in GeoJSON
+Access WebPage: https://chanhodchang.github.io/Mapping_Earthquakes/
 
 ## Project Overview
 Using JavaScript to manipulate data from a JSON file using Leaflet and Mapbox to create maps. Used D3 and GeoJSON to mark labels and create data points onto the maps.
