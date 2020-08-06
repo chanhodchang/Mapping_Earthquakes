@@ -1,5 +1,5 @@
 # Mapping_Earthquakes
-Using JavaScript and D3 to populate a geographical map from data in GeoJSON
+Using JavaScript and D3 to populate a geographical map from data in GeoJSON <br />
 Access WebPage: https://chanhodchang.github.io/Mapping_Earthquakes/
 
 ## Project Overview

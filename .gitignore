@@ -1,5 +1,10 @@
-# Ignore config.js file.
-config.js
+# Ignore folders
+Mapping_GeoJSON_Linestrings
+Mapping_GeoJSON_Polygons
+Mapping_Lines
+Mapping_Multiple_Points
+Mapping_Single_Points
+
 
 # Compiled class file
 *.class
